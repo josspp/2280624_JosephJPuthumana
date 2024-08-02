@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\ConsoleApp1TestJP\ConsoleApp1TestJP\bin\Debug\net6.0\ConsoleApp1TestJP.exe
+C:\Users\Administrator\source\repos\ConsoleApp1TestJP\ConsoleApp1TestJP\bin\Debug\net6.0\ConsoleApp1TestJP.deps.json
+C:\Users\Administrator\source\repos\ConsoleApp1TestJP\ConsoleApp1TestJP\bin\Debug\net6.0\ConsoleApp1TestJP.runtimeconfig.json
+C:\Users\Administrator\source\repos\ConsoleApp1TestJP\ConsoleApp1TestJP\bin\Debug\net6.0\ConsoleApp1TestJP.dll
+C:\Users\Administrator\source\repos\ConsoleApp1TestJP\ConsoleApp1TestJP\bin\Debug\net6.0\ConsoleApp1TestJP.pdb
+C:\Users\Administrator\source\repos\ConsoleApp1TestJP\ConsoleApp1TestJP\obj\Debug\net6.0\ConsoleApp1TestJP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\ConsoleApp1TestJP\ConsoleApp1TestJP\obj\Debug\net6.0\ConsoleApp1TestJP.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\ConsoleApp1TestJP\ConsoleApp1TestJP\obj\Debug\net6.0\ConsoleApp1TestJP.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\ConsoleApp1TestJP\ConsoleApp1TestJP\obj\Debug\net6.0\ConsoleApp1TestJP.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ConsoleApp1TestJP\ConsoleApp1TestJP\obj\Debug\net6.0\ConsoleApp1TestJP.dll
+C:\Users\Administrator\source\repos\ConsoleApp1TestJP\ConsoleApp1TestJP\obj\Debug\net6.0\refint\ConsoleApp1TestJP.dll
+C:\Users\Administrator\source\repos\ConsoleApp1TestJP\ConsoleApp1TestJP\obj\Debug\net6.0\ConsoleApp1TestJP.pdb
+C:\Users\Administrator\source\repos\ConsoleApp1TestJP\ConsoleApp1TestJP\obj\Debug\net6.0\ConsoleApp1TestJP.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\ConsoleApp1TestJP\ConsoleApp1TestJP\obj\Debug\net6.0\ref\ConsoleApp1TestJP.dll
