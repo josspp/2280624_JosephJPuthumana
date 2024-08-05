@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\BookMangement\bin\Debug\net7.0\BookMangement.exe
+C:\Users\Administrator\source\repos\BookMangement\bin\Debug\net7.0\BookMangement.deps.json
+C:\Users\Administrator\source\repos\BookMangement\bin\Debug\net7.0\BookMangement.runtimeconfig.json
+C:\Users\Administrator\source\repos\BookMangement\bin\Debug\net7.0\BookMangement.dll
+C:\Users\Administrator\source\repos\BookMangement\bin\Debug\net7.0\BookMangement.pdb
+C:\Users\Administrator\source\repos\BookMangement\obj\Debug\net7.0\BookMangement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\BookMangement\obj\Debug\net7.0\BookMangement.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\BookMangement\obj\Debug\net7.0\BookMangement.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\BookMangement\obj\Debug\net7.0\BookMangement.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\BookMangement\obj\Debug\net7.0\BookMangement.dll
+C:\Users\Administrator\source\repos\BookMangement\obj\Debug\net7.0\refint\BookMangement.dll
+C:\Users\Administrator\source\repos\BookMangement\obj\Debug\net7.0\BookMangement.pdb
+C:\Users\Administrator\source\repos\BookMangement\obj\Debug\net7.0\BookMangement.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\BookMangement\obj\Debug\net7.0\ref\BookMangement.dll
