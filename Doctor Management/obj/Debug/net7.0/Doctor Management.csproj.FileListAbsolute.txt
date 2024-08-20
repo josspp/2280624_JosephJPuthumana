@@ -1,0 +1,14 @@
+C:\Users\Administrator\source\repos\Doctor Management\bin\Debug\net7.0\Doctor Management.exe
+C:\Users\Administrator\source\repos\Doctor Management\bin\Debug\net7.0\Doctor Management.deps.json
+C:\Users\Administrator\source\repos\Doctor Management\bin\Debug\net7.0\Doctor Management.runtimeconfig.json
+C:\Users\Administrator\source\repos\Doctor Management\bin\Debug\net7.0\Doctor Management.dll
+C:\Users\Administrator\source\repos\Doctor Management\bin\Debug\net7.0\Doctor Management.pdb
+C:\Users\Administrator\source\repos\Doctor Management\obj\Debug\net7.0\Doctor Management.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Doctor Management\obj\Debug\net7.0\Doctor Management.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Doctor Management\obj\Debug\net7.0\Doctor Management.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Doctor Management\obj\Debug\net7.0\Doctor Management.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Doctor Management\obj\Debug\net7.0\Doctor Management.dll
+C:\Users\Administrator\source\repos\Doctor Management\obj\Debug\net7.0\refint\Doctor Management.dll
+C:\Users\Administrator\source\repos\Doctor Management\obj\Debug\net7.0\Doctor Management.pdb
+C:\Users\Administrator\source\repos\Doctor Management\obj\Debug\net7.0\Doctor Management.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\Doctor Management\obj\Debug\net7.0\ref\Doctor Management.dll
