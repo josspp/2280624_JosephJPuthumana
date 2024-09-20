@@ -4,12 +4,12 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-// Abstract class
+//Abstract class
 public abstract class Flight
 {
-    public string FlightNumber { get; set; }
-    public string Destination { get; set; }
-    public decimal BaseFare { get; set; }
+    public string FlightNumber{get;set;}
+    public string Destination{get;set;}
+    public decimal BaseFare{get;set;}
 
     public abstract decimal CalculateFare();
     public abstract void DisplayDetails();
@@ -18,26 +18,26 @@ public abstract class Flight
 // DomesticFlight class
 public class DomesticFlight : Flight
 {
-    public override decimal CalculateFare() => BaseFare * 1.1m; // Example fare calculation
+    public override decimal CalculateFare() => BaseFare * 1.1m; //Example fare calculation
 
     public override void DisplayDetails()
     {
-        Console.WriteLine($"Domestic Flight: {FlightNumber}, Destination: {Destination}, Fare: {CalculateFare()}");
+        Console.WriteLine($"Domestic Flight:{FlightNumber}, Destination: {Destination}, Fare: {CalculateFare()}");
     }
 }
 
-// InternationalFlight class
+//InternationalFlight class
 public class InternationalFlight : Flight
 {
-    public override decimal CalculateFare() => BaseFare * 1.5m; // Example fare calculation
+    public override decimal CalculateFare() => BaseFare * 1.5m; //Example fare calculation
 
     public override void DisplayDetails()
     {
-        Console.WriteLine($"International Flight: {FlightNumber}, Destination: {Destination}, Fare: {CalculateFare()}");
+        Console.WriteLine($"International Flight:{FlightNumber}, Destination: {Destination}, Fare: {CalculateFare()}");
     }
 }
 
-// Interface for booking
+//Interface for booking
 public interface IBooking
 {
     void BookTicket(Flight flight, Passenger passenger);
@@ -45,7 +45,7 @@ public interface IBooking
     Booking GetBookingDetails(int bookingId);
 }
 
-// Booking class
+//Booking class
 public class Booking
 {
     public int BookingId { get; set; }
@@ -53,7 +53,7 @@ public class Booking
     public Passenger Passenger { get; set; }
 }
 
-// Passenger class
+//Passenger class
 public class Passenger
 {
     public string Name { get; set; }
@@ -61,7 +61,7 @@ public class Passenger
     public string Phone { get; set; }
 }
 
-// Booking manager
+//Booking manager
 public class BookingManager : IBooking
 {
     private List<Booking> bookings = new List<Booking>();
@@ -107,24 +107,24 @@ public class Program
 
     public static void Main()
     {
-        // Ensure the CSV file exists and has initial data
+        //Ensure the CSV file exists and has initial data
         EnsureCsvFileExists(csvFilePath);
 
-        // Load flights from CSV
+        //Load flights from CSV
         LoadFlightsFromCsv(csvFilePath);
         
-        // Display flights
+        //Display flights
         Console.WriteLine("Available Flights:");
         foreach (var flight in flightList)
         {
             flight.DisplayDetails();
         }
 
-        // Book a ticket
+        //Book a ticket
         var passenger = new Passenger { Name = "John Doe", Email = "john@example.com", Phone = "123-456-7890" };
         bookingManager.BookTicket(flightList[0], passenger);
 
-        // LINQ queries
+        //LINQ queries
         var filteredFlights = flightList.Where(f => f.Destination == "London").ToList();
         var sortedFlights = flightList.OrderBy(f => f.CalculateFare()).ToList();
         var groupedFlights = flightList.GroupBy(f => f is DomesticFlight ? "Domestic" : "International");
@@ -151,11 +151,11 @@ public class Program
             }
         }
 
-        // Save updated flights to CSV
+        //Save updated flights to CSV
         SaveFlightsToCsv(csvFilePath);
     }
 
-    // Ensure the CSV file exists with initial data
+    //Ensure the CSV file exists with initial data
     public static void EnsureCsvFileExists(string filePath)
     {
         if (!File.Exists(filePath))
@@ -176,7 +176,7 @@ public class Program
         }
     }
 
-    // CSV reading method
+    //CSV reading method
     public static void LoadFlightsFromCsv(string filePath)
     {
         try
@@ -205,7 +205,7 @@ public class Program
         }
     }
 
-    // CSV writing method
+    //CSV writing method
     public static void SaveFlightsToCsv(string filePath)
     {
         try
@@ -225,7 +225,7 @@ public class Program
         }
     }
 
-    // Regex validation methods
+    //Regex validation methods
     public static bool ValidateFlightNumber(string flightNumber) => Regex.IsMatch(flightNumber, @"^FL\d{4}$");
     public static bool ValidateEmail(string email) => Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$");
     public static bool ValidatePhone(string phone) => Regex.IsMatch(phone, @"^\d{3}-\d{3}-\d{4}$");
